@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h3 class="header__title">Keybord Stock</h3>
+        </header>
+        <main>
+            <form class="forms__section" id="formulario" data-form>
+                <div class="form">
+                    <h2 class="forms__title">AGREGA PRODUCTO</h2>
+                    <input class="form__input form__name" type="text" placeholder="Nombre"  required data-name>
+                    <input class="form__input form__price" type="text" placeholder="Precio"  required data-price>
+                    <input class="form__input form__img" type="text" placeholder="Imagen (URL)"  required data-image> 
+        
+                    <div class="form__buttons" >
+                        <input class="form__button form__buttons--send" type="submit" id="send--button">
+                        <button class="form__button form__buttons--clean" id="clean--button">Limpiar</button>
+                    </div>
+                </div>
+            </form>
+        
+        
+            <ul class="cards__section" alt="Lista de Teclados"  data-lista >
+                <li class="card">
+                    <div class="card__superior">
+                        <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/b62e483d-a44c-4772-9e7a-cb6810ad7b4f.f18472af24a839b9f31a5b38a0d7a76e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Imagen producto">
+                        <h4 class="card__superior--title">Teclado Mecanico</h4>
+                    </div>
+                    <div class="card__footer">
+                        <p class="card__footer--price">$40</p>
+                        <button class="card__footer--delete">
+                            <img src="./assets/dustbin_7605102.png" class="delete-button" alt="Eliminar">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        
+        <footer>
+                <h4>Desarrollado por Alan Camarena</h4>
+                <p>2024</p>
+        </footer>
+
+    </div>
+
+    <script src="js/mostrarStock.js" type="module"></script>
+</body>
+</html>

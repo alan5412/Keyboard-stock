@@ -1,0 +1,46 @@
+{
+  "MechanicalKeyboards": [
+    {
+      "name": "Razer BlackWidow Elite",
+      "price": "169.99",
+      "image": "https://www.muycomputer.com/wp-content/uploads/2019/03/Razer-BlackWidow-Elite-Review-1000x600.jpg",
+      "id": "2t5y"
+    },
+    {
+      "id": "3898",
+      "name": "HyperX Row",
+      "price": "89.99",
+      "image": "https://row.hyperx.com/cdn/shop/products/hyperx_alloy_origins_65_english_us_5_special_20copy_2048x2048.jpg?v=1665613630"
+    },
+    {
+      "id": "db24",
+      "name": "Rebel up",
+      "price": "110",
+      "image": "https://cdnx.jumpseller.com/hypelegend/image/19907930/resize/640/640?1687184438"
+    },
+    {
+      "id": "a965",
+      "name": "Ducky One3",
+      "price": "78",
+      "image": "https://www.tradeinn.com/f/14065/140651598_5/ducky-teclado-gaming-one-3-cosmic-sf-65-rgb-ptb-mx-portuguese.jpg"
+    },
+    {
+      "id": "ae0a",
+      "name": "Cherry MX LP2",
+      "price": "52",
+      "image": "https://www.cherry.es/media/catalog/product/cache/661c0bae3bb54b88fbb1b415a9d390cb/g/8/g80-3860-2_top_eu_1.jpg"
+    },
+    {
+      "id": "05bf",
+      "name": "DeepCool",
+      "price": "88.90",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34aJw-tQZK8ReTiTDbbJwD8yBa0HM53tmeg&s"
+    },
+    {
+      "id": "58bd",
+      "name": "Hyekit",
+      "price": "130",
+      "image": "https://m.media-amazon.com/images/I/5113xO0rE5L._AC_SL1500_.jpg"
+    }
+  ]
+}
